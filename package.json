@@ -1,0 +1,30 @@
+{
+  "name": "TenMinuteMail",
+  "version": "0.0.0",
+  "description": "10 minute mail api",
+  "main": "./lib/tenMinuteMailApi",
+  "scripts": {
+    "start": "node lib/tenMinuteMailApi",
+    "test": "mocha test/*.js"
+  },
+  "keywords": [
+    "10",
+    "minute",
+    "mail",
+    "api"
+  ],
+  "author": "aero.uriel@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^0.19.0",
+    "fs-extra": "^0.22.1",
+    "request": "^2.60.0",
+    "tough-cookie-filestore": "0.0.1",
+    "uid": "0.0.2"
+  },
+  "devDependencies": {
+    "mockery": "^1.4.0",
+    "should": "^7.0.2",
+    "sinon": "^1.15.4"
+  }
+}
