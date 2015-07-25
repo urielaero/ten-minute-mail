@@ -12,7 +12,7 @@ var tenMinuteMail = require('ten-minute-mail');
 ```
 
 ## Example
-from examples/temporalMail.js
+[examples/temporalMail.js](https://github.com/urielaero/ten-minute-mail/blob/master/examples/temporalMail.js)
 
 ```js
 var tenMinuteMail = require('ten-minute-mail'),
