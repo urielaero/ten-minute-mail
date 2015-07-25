@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/urielaero/ten-minute-mail.svg)](https://travis-ci.org/urielaero/ten-minute-mail)
+
 ## Installation
 
 ```
