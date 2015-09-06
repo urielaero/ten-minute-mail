@@ -97,8 +97,8 @@ describe('tenMinuteMailApi', function(){
         html2,
         emailTest = 'g7522207@trbvm.com';
         before(function(){
-            html = fs.readFileSync('test/10minutemail.html', 'utf-8');
-            html2 = fs.readFileSync('test/10minutemail2.html', 'utf-8');
+            html = fs.readFileSync('test/html/10minutemail.html', 'utf-8');
+            html2 = fs.readFileSync('test/html/10minutemail2.html', 'utf-8');
         });
 
         it('should return new email', function(done){
@@ -179,7 +179,7 @@ describe('tenMinuteMailApi', function(){
         describe('inbox', function(){
             before(function(){
                 var jar = api.existCookie(emailTest),
-                htmlInbox = fs.readFileSync('test/10minutemailBox.html', 'utf-8');
+                htmlInbox = fs.readFileSync('test/html/10minutemailBox.html', 'utf-8');
                 stubRequest.withArgs({url: 'http://10minutemail.com/10MinuteMail/index.html', jar: jar}).yieldsAsync(null, {}, html);
                 stubRequest.withArgs({url: 'http://10minutemail.com/10MinuteMail/index.html?dataModelSelection=message%3Aemails%5B0%5D&actionMethod=index.xhtml%3AmailQueue.select', jar:jar }).yieldsAsync(null, {c:200}, htmlInbox);
             });
