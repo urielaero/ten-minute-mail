@@ -1,5 +1,7 @@
 [![Build Status](https://travis-ci.org/urielaero/ten-minute-mail.svg)](https://travis-ci.org/urielaero/ten-minute-mail)
 
+## DEPRECATED! - api outdated because the site updated its interface.
+
 ## Installation
 
 ```
